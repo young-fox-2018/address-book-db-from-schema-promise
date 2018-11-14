@@ -46,6 +46,24 @@ class Contact {
         })
 
     }
+    static update(id, params) {
+        return new Promise((resolve, reject) => {
+            let qry = `UPDATE Contacts 
+                        SET `
+            for(let key in params) {
+                qry += `${key} = "${params[key]}", `
+            }
+            qry = qry.slice(0, qry.length - 2) 
+            qry += ` WHERE id = ${id}`
+            this.executeQuery(qry)
+                .then(result => {
+                    resolve(result)
+                })
+                .catch(err => {
+                    reject(err)
+                })
+        })
+    }
 }
 
 module.exports = Contact

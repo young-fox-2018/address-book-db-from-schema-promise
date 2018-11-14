@@ -32,6 +32,23 @@ class ContactController {
             console.log(err)
         })
     }
+    static update(params) {
+        Contact.findOne({[params[0]]: params[1]})
+            .then(result => {
+                if (result) {
+                    // console.log(result.id)
+                    return Contact.update(result.id, {[params[0]]: params[2]})
+                } else {
+                    console.log("Data not found!")
+                }
+            })
+            .then(result => {
+                console.log("Data updated!")
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    }
 }
 
 module.exports = ContactController
