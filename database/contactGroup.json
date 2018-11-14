@@ -1,0 +1,22 @@
+[
+    {
+        "contactId": 1,
+        "groupId": 4
+    },
+    {
+        "contactId": 2,
+        "groupId": 4
+    },
+    {
+        "contactId": 3,
+        "groupId": 1
+    },
+    {
+        "contactId": 4,
+        "groupId": 2
+    },
+    {
+        "contactId": 5,
+        "groupId": 3
+    }
+]

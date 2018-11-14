@@ -1,0 +1,32 @@
+[
+    {
+        "name": "khevin",
+        "company": "GO-JEK",
+        "phone": "08123992383",
+        "email": "muhammadkhevin@gmail.com"
+    },
+    {
+        "name": "hafriz",
+        "company": "Traveloka",
+        "phone": "08723231221",
+        "email": "hafriz@gmail.com"
+    },
+    {
+        "name": "sendy",
+        "company": "Tokopedia",
+        "phone": "08992123122",
+        "email": "sendy@gmail.com"
+    },
+    {
+        "name": "faris",
+        "company": "Bukalapak",
+        "phone": "08912388993",
+        "email": "faris@gmail.com"
+    },
+    {
+        "name": "armedi",
+        "company": "xendit",
+        "phone": "081232327883",
+        "email": "armedi@gmail.com"
+    }
+]
