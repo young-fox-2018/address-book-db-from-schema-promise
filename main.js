@@ -1,3 +1,4 @@
+let ContactController = require('./controllers/contactCtrl')
 const inp = process.argv.slice(2)
 
 switch (inp[0]) {
