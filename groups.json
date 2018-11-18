@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "group_name": "Hacktiv8"
+    },
+    {
+        "id": 2,
+        "group_name": "JavaScript Ninja"
+    },
+    {
+        "id": 3,
+        "group_name": "React Developers"
+    },
+    {
+        "id": 4,
+        "group_name": "Zero to Mastery"
+    },
+    {
+        "id": 5,
+        "group_name": "React for Beginners"
+    }
+    
+]
